@@ -5,6 +5,7 @@
 
 .first {
     background-color: #1F2937;
+    height:500px;
 }
 
 .header {
@@ -32,12 +33,15 @@ a {
 h2 {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
 
 .hero2 {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0 0 10px 0;
 }
 
 button {
@@ -48,7 +52,7 @@ button {
 }
 
 .sign {
-    width: 300px;
+    width: 400px;
 }
 
 .content {
@@ -63,8 +67,22 @@ button {
     align-items: center;
     background-color: gray;
     color: white;
-    width: 300px;
-    height: 150px;
+    width: 600px;
+    height: 250px;
 }
 
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937
+}
 
+.card {
+    width: 150px;
+    height: 150px;
+    border: 3px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10%;
+}
