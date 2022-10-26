@@ -3,11 +3,22 @@
     flex-direction: column;
 }
 
-.header {
+.first {
     background-color: #1F2937;
+}
+
+.header {
     color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
 }
