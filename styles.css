@@ -86,3 +86,19 @@ h3 {
     border-style: solid;
     border-radius: 10%;
 }
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.sub {
+    text-align: center;
+}
