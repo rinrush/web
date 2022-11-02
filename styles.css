@@ -167,3 +167,13 @@ height: 350px;
 .btwo {
     border-color: white;
 }
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 100px;
+}
